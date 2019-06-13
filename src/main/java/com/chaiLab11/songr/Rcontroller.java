@@ -30,7 +30,4 @@ public class Rcontroller {
             }
         return output;
     }
-
-
-
 }
