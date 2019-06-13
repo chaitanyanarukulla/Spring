@@ -6,11 +6,11 @@
 <h1>All the Albums</h1>
 <ul>
     <li th:each="album : ${albums}">
-        Album : <span th:text="${album.title}"></span>
-        Artist:<span th:text="${album.artist}"></span>
-        Songcount:<span th:text="${album.songCount}"></span>
-        Album Length:<span th:text="${album.length}"></span>
-        ImageUrl:<span th:text="${album.imageUrl}"></span>
+        Album: <p th:text="${album.title}"></p>
+        Artist:<p th:text="${album.artist}"></p>
+        Songcount:<p th:text="${album.songCount}"></p>
+        Album Length:<p th:text="${album.length}"></p>
+        ImageUrl:<p th:text="${album.imageUrl}"></p>
 
     </li>
 </ul>
