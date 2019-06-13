@@ -11,6 +11,9 @@
 - ```/reverse```
   - will reverse the words in the sentence
   - in order to see this functionality, you must type ```localhost:8080/reverse?sentence=<put sentence here```>
+-```/album/new```
+  - will add Albums to the database
+  - will redirect to album page
 
 
 ## Directions
@@ -27,3 +30,4 @@
       - ```localhost:8080/capitalize/<anyword you want>```
       - ```localhost:8080/reverse?sentence=<put sentence here>```
       - ```localhost:8080/reverseER?sentence=<put sentence here>```
+      - ```localhost:8080/album/new```
