@@ -11,7 +11,4 @@ public class Rcontroller {
         public String getHelloWorld() {
             return "Hello, world! It's a beautiful day!";
         }
-
-
-
 }
